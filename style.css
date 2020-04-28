@@ -20,16 +20,27 @@
 }
 
 .article{
-  width: 90%;
-  margin-left: 55%;
+  width: 60%;
+  display: inline-block;
+  top: -12em;
+  position: relative;
 }
 
 .aside{
-  width: 45%;
+  width: 20%;
   text-align: right;
-  margin-left: 50%;
-  
+  display: inline-block;
+  margin-left: 15%;
+  }
+
+  /* .articleParagraph{
+    margin-left: 15%;
+  } */
+
+.mainView{
+  margin-left: 30vw;
 }
+
 
 .banner{
   background-color: var(--primaryBlue);
@@ -44,17 +55,16 @@
   padding: .6em;
 }
 
-.absolute{
-  position: absolute;
-}
 
 h1{
 color: white;
 }
 
 footer{
-  width: 88%;
-  height: 10px;
-  padding: 5em;
+  background-color: var(--primaryBlue);
+  padding-top: 1em;
+  padding-bottom: .5em;
+  height: 100px;
+  position: static;
 }
 
