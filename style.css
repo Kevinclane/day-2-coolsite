@@ -64,7 +64,9 @@ footer{
   background-color: var(--primaryBlue);
   padding-top: 1em;
   padding-bottom: .5em;
-  height: 100px;
-  position: static;
+  height: 2vh;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
 }
 
