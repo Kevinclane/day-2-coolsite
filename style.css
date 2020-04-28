@@ -1,6 +1,6 @@
 :root{
-  --primaryBlue: rgb(58, 58, 206);
-  --secondaryBlue: rgb(158, 158, 196);
+  --primaryBlue: #1c4587;
+  --secondaryBlue: #CFE2F3;
 }
 
 .column{
@@ -34,12 +34,14 @@
 .banner{
   background-color: var(--primaryBlue);
   border: solid 2px black;
+  padding-top: 1em;
+  padding-bottom: .5em;
 }
 
 .littleBanner{
   background-color: var(--secondaryBlue);
   border: none;
-  padding: .5em;
+  padding: .6em;
 }
 
 .absolute{
